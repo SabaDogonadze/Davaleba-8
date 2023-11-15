@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etFullName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="saxeli"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:hint="saxeli"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etLastName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:hint="saxeli"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etMail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:hint="saxeli"/>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDelete"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:background="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChange"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="Change"
+            android:textColor="@color/white"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
